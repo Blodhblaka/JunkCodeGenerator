@@ -1,0 +1,18 @@
+﻿<Controls:MetroWindow x:Class="JunkCodeGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JunkCodeGenerator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="190.249" Width="345.086">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="169*"/>
+            <ColumnDefinition Width="168*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="statusLabel" Content="Closing Steam"  Margin="0,10,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="41" Width="327" HorizontalAlignment="Center"/>
+        <Controls:ProgressRing x:Name="progressRing" Margin="136,56,141,43" Grid.ColumnSpan="2"></Controls:ProgressRing>
+    </Grid>
+</Controls:MetroWindow>
